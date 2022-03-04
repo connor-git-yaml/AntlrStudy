@@ -1,4 +1,3 @@
 *.class
-*.interp
-*.java
-*.tokens
+AutoGeneration/*
+*/.antlr/*
