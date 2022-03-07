@@ -1,0 +1,67 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch InsertSerialID",
+            "request": "launch",
+            "mainClass": "InsertSerialID",
+            "projectName": "AntlrStudy_b469392d",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Col",
+            "request": "launch",
+            "mainClass": "Col",
+            "projectName": "AntlrStudy_b469392d",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calc",
+            "request": "launch",
+            "mainClass": "Calc",
+            "projectName": "AntlrStudy_b469392d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExprJoyRide",
+            "request": "launch",
+            "mainClass": "ExprJoyRide",
+            "projectName": "AntlrStudy_b469392d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExtractInterfaceTool",
+            "request": "launch",
+            "mainClass": "ExtractInterfaceTool",
+            "projectName": "AntlrStudy_b469392d",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "AntlrStudy_b469392d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Translate",
+            "request": "launch",
+            "mainClass": "Translate",
+            "projectName": "AntlrStudy_b469392d"
+        }
+    ]
+}

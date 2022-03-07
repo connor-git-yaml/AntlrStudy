@@ -7,12 +7,17 @@
  * Visit http://www.pragmaticprogrammer.com/titles/tpantlr2 for more book information.
 ***/
 import org.antlr.v4.runtime.TokenStream;
-import org.antlr.v4.runtime.misc.Interval;
 
 public class ExtractInterfaceListener extends JavaBaseListener {
     JavaParser parser;
     public ExtractInterfaceListener(JavaParser parser) {this.parser = parser;}
     /** Listen to matches of classDeclaration */
+
+    @Override
+    public void enterImportDeclaration(JavaParser.ImportDeclarationContext ctx) {
+        System.out.println(parser.getTokenStream().getText(ctx));
+    }
+
     @Override
     public void enterClassDeclaration(JavaParser.ClassDeclarationContext ctx){
         System.out.println("interface I"+ctx.Identifier()+" {");
