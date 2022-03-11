@@ -4,6 +4,16 @@
       <root url="jar://$PROJECT_DIR$/lib/antlr-4.9.3-complete.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/antlr4-maven-plugin/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/antlr4-maven-plugin/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/runtime-testsuite/annotations/src" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/runtime-testsuite/processors/src" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/runtime-testsuite/test" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/runtime/Java/src" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/tool-testsuite/test" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/tool/playground" />
+      <root url="file://$PROJECT_DIR$/../../Lib/antlr4-4.9.3/tool/src" />
+    </SOURCES>
   </library>
 </component>
