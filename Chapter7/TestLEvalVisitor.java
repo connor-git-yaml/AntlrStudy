@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.util.*;
 
 public class TestLEvalVisitor {
-    // a4 -visitor Expr.g4
+    // a4 -visitor CExpr.g4
     /** Visitor "calculator" */
     public static class EvalVisitor extends LExprBaseVisitor<Integer> {
         public Integer visitMult(LExprParser.MultContext ctx) {
